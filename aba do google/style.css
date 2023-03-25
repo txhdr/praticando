@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container{
+    width: 300px;
+    height: 700px;
+    background-color: #d6fcfc;
+    box-shadow: 0px 0px 7px black;
+}
+
+
+
+section.topo{
+    margin: 10px;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#ico1{
+
+}
+
+
+section.topo > h1{
+    display: inline-block;
+    margin-left:20px ;
+    margin-right: 120px;
+
+    font-size: 2em;
+    
+}
+
+section.topo > i#ico2{
+    display: inline-block;
+    
+}
